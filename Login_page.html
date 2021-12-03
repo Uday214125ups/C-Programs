@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function fun(){
+                var a=document.getElementById("auth").value;
+                var b=document.getElementById("pass").value;
+
+                if(a=='Authority' && b=="password"  || a=='Auth' && b=="pass" ){
+
+                alert("Login SUCCESSFULL, you are an authorized user")
+            }
+            else alert("Login FAIL, you are not an authorized user")
+        }
+        </script>
+        <title>
+            authority
+        </title>
+    </head>
+    <body>
+        
+        <br><br><br><br><br><br><br><br><br><br>
+        <h1 align=center>Authority Login</h1>
+        <form align=center>
+            <input type="text" id=auth placeholder="Enter id"><br><br>
+            <input type="password" id=pass placeholder="Enter password"><br><br>
+            <input type="button" value="Login" onclick="fun()"><br><br>
+
+        </form>
+    </body>
+</html>
