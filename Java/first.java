@@ -1,11 +1,14 @@
 public class first{  
     public static void main(String[] args)
     {
-        int a=9;
-        float b=12315f;
-        int[] hello={1,2,3};
+        int c[];
+        String a="he";
+        float b=1f;
         
-        System.out.println(b);
+        if (a=="he" && b==1f){
+        System.out.print("hello");}
+        
+        
 
     }
 }
