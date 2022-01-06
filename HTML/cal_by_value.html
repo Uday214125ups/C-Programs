@@ -1,0 +1,23 @@
+
+<?php
+function swapUsingCallByValue($x,$y)
+{
+$temp=$x;
+$x=$y;
+$y=$temp;
+echo 'Value of $x inside function calling='.$x."<br>";
+echo 'Value of $y inside function calling='.$y."<br>";
+}
+
+$a=10;
+$b=15;
+echo 'Value of $a before function calling='.$a."<br>";
+echo 'Value of $b before function calling='.$b."<br>";
+
+swapUsingCallByValue($a,$b); 
+
+
+echo 'Value of $a after function calling='.$a."<br>";
+echo 'Value of $b after function calling='.$b."<br>";
+
+?>
