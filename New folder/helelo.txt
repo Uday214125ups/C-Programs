@@ -1,2 +1,925 @@
-hello this is uday this side
-and who are you?
+Microsoft Windows [Version 10.0.22000.1455]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\uday2>git --version
+git version 2.38.1.windows.1
+
+C:\Users\uday2>git config --global user.name "Uday Pratap Singh"
+
+C:\Users\uday2>git cofig --global user.email "uday214125ups@gmail.com"
+git: 'cofig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+C:\Users\uday2>git config --global user.email "uday214125ups@gmail.com"
+
+C:\Users\uday2>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=Uday Pratap Singh
+user.email=uday214125ups@gmail.com
+
+C:\Users\uday2>git help config
+
+C:\Users\uday2>git config --help
+
+C:\Users\uday2>git add --help
+
+C:\Users\uday2>git init
+Initialized empty Git repository in C:/Users/uday2/.git/
+
+C:\Users\uday2>cd C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\Shoping-Complex
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\Shoping-Complex>git init
+Reinitialized existing Git repository in C:/Users/uday2/OneDrive/Desktop/Desktop Jan 2023/Github/Shoping-Complex/.git/
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\Shoping-Complex>cd C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git init
+Reinitialized existing Git repository in C:/Users/uday2/OneDrive/Desktop/Desktop Jan 2023/Github/C-Programs/.git/
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>ls -la
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>ls -la
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git init
+Reinitialized existing Git repository in C:/Users/uday2/OneDrive/Desktop/Desktop Jan 2023/Github/C-Programs/.git/
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new file/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add new file
+fatal: pathspec 'new' did not match any files
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add "new file"
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   new file/New Text Document.txt
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   new file/New Text Document.txt
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git commit -m "first commit through cmd"
+[main 684b9fc] first commit through cmd
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new file/New Text Document.txt
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git log
+commit 684b9fc08c7ab61b0da7dc9269a1f88577595935 (HEAD -> main)
+Author: Uday Pratap Singh <uday214125ups@gmail.com>
+Date:   Fri Feb 10 22:59:23 2023 +0530
+
+    first commit through cmd
+
+commit 9a774851aacd9a8803627cdfe0c4a38f0896cfd1 (origin/main, origin/HEAD)
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Thu Jan 6 23:58:46 2022 +0530
+
+    commit
+
+commit 87b3ae0c8eafa03e3a96531dd421aea5c691874f
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 10 21:59:40 2021 +0530
+
+    commit
+
+commit 8bfcdae220b0ecb38fa909449eea33973bad4d4c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 22:49:04 2021 +0530
+
+    commit
+
+commit b72b489679f2a63830b69cfbfb43ed070f2aa3ff
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 21:16:14 2021 +0530
+
+    commit
+
+commit 60890139d3a7766372d7f6427dc920aa85b4cc7c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 21:22:49 2021 +0530
+
+    commit
+
+commit c11f68d5f9d41776f19b13d94278996cf0978806
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 20:36:06 2021 +0530
+
+    commit
+
+commit e5405f990a8d06a5266c3eebaa4cf83150e9176f
+Author: Uday214125ups <86515335+Uday214125ups@users.noreply.github.com>
+Date:   Wed Nov 24 07:45:32 2021 +0530
+
+    Create README.md
+
+commit 4e5f0ecfdc165310b24776ea2b39fb1cbf78a9fd
+:
+Author: Uday Pratap Singh <uday214125ups@gmail.com>
+Date:   Fri Feb 10 22:59:23 2023 +0530
+
+    first commit through cmd
+
+commit 9a774851aacd9a8803627cdfe0c4a38f0896cfd1 (origin/main, origin/HEAD)
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Thu Jan 6 23:58:46 2022 +0530
+
+    commit
+
+commit 87b3ae0c8eafa03e3a96531dd421aea5c691874f
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 10 21:59:40 2021 +0530
+
+    commit
+
+commit 8bfcdae220b0ecb38fa909449eea33973bad4d4c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 22:49:04 2021 +0530
+
+    commit
+
+commit b72b489679f2a63830b69cfbfb43ed070f2aa3ff
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 21:16:14 2021 +0530
+
+    commit
+
+commit 60890139d3a7766372d7f6427dc920aa85b4cc7c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 21:22:49 2021 +0530
+
+    commit
+
+commit c11f68d5f9d41776f19b13d94278996cf0978806
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 20:36:06 2021 +0530
+
+    commit
+
+commit e5405f990a8d06a5266c3eebaa4cf83150e9176f
+Author: Uday214125ups <86515335+Uday214125ups@users.noreply.github.com>
+Date:   Wed Nov 24 07:45:32 2021 +0530
+
+    Create README.md
+
+commit 4e5f0ecfdc165310b24776ea2b39fb1cbf78a9fd
+Author: Uday Pratap Singh <uday214125ups@gmail.com>
+Date:   Fri Feb 10 22:59:23 2023 +0530
+
+    first commit through cmd
+
+commit 9a774851aacd9a8803627cdfe0c4a38f0896cfd1 (origin/main, origin/HEAD)
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Thu Jan 6 23:58:46 2022 +0530
+
+    commit
+
+commit 87b3ae0c8eafa03e3a96531dd421aea5c691874f
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 10 21:59:40 2021 +0530
+
+    commit
+
+commit 8bfcdae220b0ecb38fa909449eea33973bad4d4c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 22:49:04 2021 +0530
+
+    commit
+
+commit b72b489679f2a63830b69cfbfb43ed070f2aa3ff
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 21:16:14 2021 +0530
+
+    commit
+
+commit 60890139d3a7766372d7f6427dc920aa85b4cc7c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 21:22:49 2021 +0530
+
+    commit
+
+commit c11f68d5f9d41776f19b13d94278996cf0978806
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 20:36:06 2021 +0530
+
+    commit
+
+commit e5405f990a8d06a5266c3eebaa4cf83150e9176f
+Author: Uday214125ups <86515335+Uday214125ups@users.noreply.github.com>
+Date:   Wed Nov 24 07:45:32 2021 +0530
+
+    Create README.md
+
+commit 4e5f0ecfdc165310b24776ea2b39fb1cbf78a9fd
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+  ESC-(  LeftArrow  *  Left  one half screen width (or N positions).
+  ESC-}  ^RightArrow   Right to last column displayed.
+  ESC-{  ^LeftArrow    Left  to first column.
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          SEARCHING
+
+  /pattern          *  Search forward for (N-th) matching line.
+  ?pattern          *  Search backward for (N-th) matching line.
+  n                 *  Repeat previous search (for N-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+  ESC-U                Clear search highlighting.
+  &pattern          *  Display only matching lines.
+        ---------------------------------------------------
+        A search pattern may begin with one or more of:
+        ^N or !  Search for NON-matching lines.
+HELP -- Press RETURN for more, or q when done...skipping...
+commit 684b9fc08c7ab61b0da7dc9269a1f88577595935 (HEAD -> main)
+Author: Uday Pratap Singh <uday214125ups@gmail.com>
+Date:   Fri Feb 10 22:59:23 2023 +0530
+
+    first commit through cmd
+
+commit 9a774851aacd9a8803627cdfe0c4a38f0896cfd1 (origin/main, origin/HEAD)
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Thu Jan 6 23:58:46 2022 +0530
+
+    commit
+
+commit 87b3ae0c8eafa03e3a96531dd421aea5c691874f
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 10 21:59:40 2021 +0530
+
+    commit
+
+commit 8bfcdae220b0ecb38fa909449eea33973bad4d4c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 22:49:04 2021 +0530
+
+    commit
+
+commit b72b489679f2a63830b69cfbfb43ed070f2aa3ff
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 21:16:14 2021 +0530
+
+    commit
+
+commit 60890139d3a7766372d7f6427dc920aa85b4cc7c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 21:22:49 2021 +0530
+
+    commit
+
+commit c11f68d5f9d41776f19b13d94278996cf0978806
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 20:36:06 2021 +0530
+
+    commit
+
+commit e5405f990a8d06a5266c3eebaa4cf83150e9176f
+Author: Uday214125ups <86515335+Uday214125ups@users.noreply.github.com>
+Date:   Wed Nov 24 07:45:32 2021 +0530
+
+    Create README.md
+
+...skipping...
+commit 684b9fc08c7ab61b0da7dc9269a1f88577595935 (HEAD -> main)
+Author: Uday Pratap Singh <uday214125ups@gmail.com>
+Date:   Fri Feb 10 22:59:23 2023 +0530
+
+    first commit through cmd
+
+commit 9a774851aacd9a8803627cdfe0c4a38f0896cfd1 (origin/main, origin/HEAD)
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Thu Jan 6 23:58:46 2022 +0530
+
+    commit
+
+commit 87b3ae0c8eafa03e3a96531dd421aea5c691874f
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 10 21:59:40 2021 +0530
+
+    commit
+
+commit 8bfcdae220b0ecb38fa909449eea33973bad4d4c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 22:49:04 2021 +0530
+
+    commit
+
+commit b72b489679f2a63830b69cfbfb43ed070f2aa3ff
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Fri Dec 3 21:16:14 2021 +0530
+
+    commit
+
+commit 60890139d3a7766372d7f6427dc920aa85b4cc7c
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 21:22:49 2021 +0530
+
+    commit
+
+commit c11f68d5f9d41776f19b13d94278996cf0978806
+Author: Uday Pratap Singh <Uday214125ups@gmail.com>
+Date:   Tue Nov 30 20:36:06 2021 +0530
+
+    commit
+
+commit e5405f990a8d06a5266c3eebaa4cf83150e9176f
+Author: Uday214125ups <86515335+Uday214125ups@users.noreply.github.com>
+Date:   Wed Nov 24 07:45:32 2021 +0530
+
+    Create README.md
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git remote -v
+origin  https://github.com/Uday214125ups/C-Programs.git (fetch)
+origin  https://github.com/Uday214125ups/C-Programs.git (push)
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git diff
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git diff
+diff --git a/new file/New Text Document.txt b/new file/New Text Document.txt
+index 31eab43..a9bdaea 100644
+--- a/new file/New Text Document.txt
++++ b/new file/New Text Document.txt
+@@ -1 +1 @@
+-gkjhkjb
+\ No newline at end of file
++gkjhkjbdfsadfhsakjdhfkasd
+\ No newline at end of file
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new file/New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --sparse              allow updating entries outside of the sparse-checkout cone
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add -A
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   new file/New Text Document.txt
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull origin master
+fatal: couldn't find remote ref master
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull C-Programs master
+fatal: 'C-Programs' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull C-Programs main
+fatal: 'C-Programs' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull origin master
+fatal: couldn't find remote ref master
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.29 KiB | 65.00 KiB/s, done.
+From https://github.com/Uday214125ups/C-Programs
+ * branch            main       -> FETCH_HEAD
+   9a77485..04d2619  main       -> origin/main
+error: Your local changes to the following files would be overwritten by merge:
+  new file/New Text Document.txt
+Merge with strategy ort failed.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push origin main
+info: please complete authentication in your browser...
+To https://github.com/Uday214125ups/C-Programs.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Uday214125ups/C-Programs.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push origin main
+To https://github.com/Uday214125ups/C-Programs.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Uday214125ups/C-Programs.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull origin main
+From https://github.com/Uday214125ups/C-Programs
+ * branch            main       -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+  new file/New Text Document.txt
+Merge with strategy ort failed.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull origin main
+From https://github.com/Uday214125ups/C-Programs
+ * branch            main       -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+  new file/New Text Document.txt
+Merge with strategy ort failed.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+From https://github.com/Uday214125ups/C-Programs
+ * [new branch]      child-branch -> origin/child-branch
+error: Your local changes to the following files would be overwritten by merge:
+  new file/New Text Document.txt
+Merge with strategy ort failed.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git resey
+git: 'resey' is not a git command. See 'git --help'.
+
+The most similar command is
+        reset
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git reset
+Unstaged changes after reset:
+M       new file/New Text Document.txt
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new file/New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add -A
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   new file/New Text Document.txt
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+error: Your local changes to the following files would be overwritten by merge:
+  new file/New Text Document.txt
+Merge with strategy ort failed.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git reset --hard
+HEAD is now at 684b9fc first commit through cmd
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+Merge made by the 'ort' strategy.
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 600 bytes | 600.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Uday214125ups/C-Programs.git
+   04d2619..9a12ac6  main -> main
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new file/New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add -A
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   new file/New Text Document.txt
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+Already up to date.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push origin main
+Everything up-to-date
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git commit -m ""updated"
+[main 518cda5] updated
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+Already up to date.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 349 bytes | 349.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Uday214125ups/C-Programs.git
+   9a12ac6..518cda5  main -> main
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 743 bytes | 28.00 KiB/s, done.
+From https://github.com/Uday214125ups/C-Programs
+   518cda5..2896019  main       -> origin/main
+Updating 518cda5..2896019
+Fast-forward
+ new file/New Text Document.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push
+Everything up-to-date
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new file/New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add -A
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git commit -m "update 2"
+[main f29288a] update 2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+Already up to date.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 354 bytes | 354.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Uday214125ups/C-Programs.git
+   2896019..f29288a  main -> main
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new file/New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add -A
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   new file/New Text Document.txt
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull origin child-branch
+From https://github.com/Uday214125ups/C-Programs
+ * branch            child-branch -> FETCH_HEAD
+Already up to date.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull origin main
+From https://github.com/Uday214125ups/C-Programs
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git commit
+Aborting commit due to empty commit message.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   new file/New Text Document.txt
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git commit -m "update2"
+[main f3e0821] update2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+Already up to date.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push origin child-branch
+error: src refspec child-branch does not match any
+error: failed to push some refs to 'https://github.com/Uday214125ups/C-Programs.git'
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git branch
+* main
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git checkout child-branch
+Switched to a new branch 'child-branch'
+branch 'child-branch' set up to track 'origin/child-branch'.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push
+Everything up-to-date
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch child-branch
+Your branch is up to date with 'origin/child-branch'.
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git branch
+* child-branch
+  main
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch child-branch
+Your branch is up to date with 'origin/child-branch'.
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch child-branch
+Your branch is up to date with 'origin/child-branch'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New folder/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git add -A
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch child-branch
+Your branch is up to date with 'origin/child-branch'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New folder/helelo.txt
+
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git commit -m "hello update"
+[child-branch 0c4b106] hello update
+ 1 file changed, 2 insertions(+)
+ create mode 100644 New folder/helelo.txt
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git status
+On branch child-branch
+Your branch is ahead of 'origin/child-branch' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull
+Already up to date.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git pull origin child-branch
+From https://github.com/Uday214125ups/C-Programs
+ * branch            child-branch -> FETCH_HEAD
+Already up to date.
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>git push origin child-branch
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 372 bytes | 372.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Uday214125ups/C-Programs.git
+   053f0b0..0c4b106  child-branch -> child-branch
+
+C:\Users\uday2\OneDrive\Desktop\Desktop Jan 2023\Github\C-Programs>
+
+
+finally finished
